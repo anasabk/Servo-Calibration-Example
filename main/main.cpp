@@ -51,7 +51,7 @@ static void servo_test(void) {
     uint8_t ch;
     int input = 0;
     int degree_list[] = {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180};
-    int pwm_list[] = {500, 570, 650, 750, 790, 800, 880, 1030, 1200, 1290, 1350, 1420, 1550, 1630, 1730, 1830, 1930, 2000, 2100};
+    int pwm_list[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
     int data_len = 19;
     MyServo servoCal(16), servoNCal(16);
     MyServo *target = &servoNCal;
